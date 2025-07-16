@@ -14,8 +14,22 @@ button{
   margin: 10px;
 }
 #Increment-btn{
-  background-color: red;
+ background-color: rgb(159, 58, 58);
+  padding: 10px;
+  font-size: 20px;
+  font: bold; 
+}
+#reset-btn{
+   background-color: rgb(140, 137, 56);
   padding: 10px;
   font-size: 20px;
   font: bold;
 }
+
+:hover#Increment-btn{
+  background-color: red;
+}
+:hover#reset-btn{
+  background-color: yellow;
+}
+
