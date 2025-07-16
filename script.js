@@ -29,14 +29,27 @@
 
 // number()
 
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
 
-function TotalLapTime() {
-  let TotalTime = lap1 + lap2 + lap3;
-  console.log(TotalTime,"seconds");
+// function TotalLapTime() {
+//   let TotalTime = lap1 + lap2 + lap3;
+//   console.log(TotalTime,"seconds");
   
-}
+// }
 
-TotalLapTime()
+// TotalLapTime()
+
+
+// let TotalLaps = 0
+
+// function Laps() {
+//   TotalLaps = TotalLaps + 1
+// }
+
+// Laps()
+// Laps()
+// Laps()
+
+// console.log(TotalLaps);
