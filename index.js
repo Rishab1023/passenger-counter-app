@@ -17,3 +17,9 @@ function reset() {
       countEl.innerText = count
 
 }
+
+function save(params) {
+    console.log(count);
+    
+}
+save()
