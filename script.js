@@ -56,8 +56,17 @@
 
 
 // strings
-let username = "per"
-let message = "You have three new notifications"
+// let username = "per"
+// let message = "You have three new notifications"
 
-console.log(message + "," + username);
+// console.log(message + "," + username);
+
+// let messageToUser = message + "," + username;
+// console.log(messageToUser);
+
+let Name = "Rishab"
+let greeting = "Hi, Good morning my name is "
+
+let myGreetings = greeting + Name
+console.log(myGreetings);
 
