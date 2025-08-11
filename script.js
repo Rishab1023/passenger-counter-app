@@ -35,6 +35,7 @@ function save() {
 
 /*
     Difference btw innerText & textContent
-    innerText :- changes the inner text of an html element to human readable text
-    
+    innerText :- The innerText property of the HTMLElement interface represents the rendered text content of a node and its descendants.
+    textContent :- textContent gets the content of all elements, including <script> and <style> elements. 
+    In contrast, innerText only shows "human-readable" elements.
 */
