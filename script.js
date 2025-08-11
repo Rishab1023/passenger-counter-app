@@ -1,55 +1,33 @@
-// let bonusPoints = 50
-// console.log(bonusPoints);
+// document.getElementById("count").innerText = 5;
 
-// bonusPoints = bonusPoints + 50
-// console.log(bonusPoints);
+let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 
-// bonusPoints = bonusPoints - 75
-// console.log(bonusPoints);
 
-// bonusPoints = bonusPoints +  45
-// console.log(bonusPoints);
+console.log(countEl);
 
-//Setting up the race
+let count = 0 //this is a variable
 
-// function start() {
-//   console.log(5);
-//   console.log(4);
-//   console.log(3);
-//   console.log(2);
-//   console.log(1);
+function increment() {
+    count += 1;
+    console.log(count);
+    countEl.innerText = count;
+    // this function allowes you to increase the count when you press the increment button
+}
+
+//if you want reset button seprately uncomment the code below and in the html program
+
+// function reset() {
+//   count = 0
+//       countEl.innerText = count
+
 // }
 
-// start() 
-
-// function number() {
-//   console.log(42);
-  
-// }
-
-// number()
-
-// let lap1 = 34
-// let lap2 = 33
-// let lap3 = 36
-
-// function TotalLapTime() {
-//   let TotalTime = lap1 + lap2 + lap3;
-//   console.log(TotalTime,"seconds");
-  
-// }
-
-// TotalLapTime()
-
-
-// let TotalLaps = 0
-
-// function Laps() {
-//   TotalLaps = TotalLaps + 1
-// }
-
-// Laps()
-// Laps()
-// Laps()
-
-// console.log(TotalLaps);
+function save() {
+    // console.log(count);
+    countstr = count + " - ";
+    saveEl.textContent += countstr; //using of textcontent instead of inner element
+    count = 0;
+    countEl.innerText = count;  //this sets the count to 0 again
+    // this function is for saving the count in a string
+}
