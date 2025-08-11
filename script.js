@@ -31,3 +31,10 @@ function save() {
     countEl.innerText = count;  //this sets the count to 0 again
     // this function is for saving the count in a string
 }
+
+
+/*
+    Difference btw innerText & textContent
+    innerText :- changes the inner text of an html element to human readable text
+    
+*/
