@@ -19,26 +19,26 @@ button{
   font-size: 20px;
   font: bold; 
 }
+:hover#Increment-btn{
+  background-color: red;
+}
+
 #reset-btn{
    background-color: rgb(140, 137, 56);
   padding: 10px;
   font-size: 20px;
   font: bold;
 }
+:hover#reset-btn{
+  background-color: yellow;
+}
+
 #save-btn{
    background-color: rgb(20, 102, 129);
   padding: 10px;
   font-size: 20px;
   font: bold;
 }
-
-:hover#Increment-btn{
-  background-color: red;
-}
-:hover#reset-btn{
-  background-color: yellow;
-}
 :hover#save-btn{
   background-color: rgb(23, 202, 230);
 }
-
